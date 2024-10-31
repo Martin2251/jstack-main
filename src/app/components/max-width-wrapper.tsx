@@ -1,3 +1,5 @@
+import { cn } from "@/utils";
+
 interface MaxWidthWrapperProps {
     children: React.ReactNode;
     className?:string,
@@ -6,6 +8,6 @@ interface MaxWidthWrapperProps {
 
 export const MaxWidthWrapper = ({className, children}:MaxWidthWrapperProps) =>{
     return (
-        <div></div>
+        <div className={cn()}></div>
     )
 }
