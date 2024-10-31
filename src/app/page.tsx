@@ -1,6 +1,11 @@
 const Page = () =>{
   return(
-    <p>Page</p>
+ <>
+ <section></section>
+ <section></section>
+ <section></section>
+ <section></section>
+ </>
   )
 }
 export default Page
